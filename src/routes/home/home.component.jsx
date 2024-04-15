@@ -15,7 +15,7 @@ const Home = () => {
       <div className='links-container'>
         Dive into my <Link to="/projects" className='project-link'>Projects,</Link>
         <a className="resume-link" 
-           href='/Resume_Chen YinJu 2020.pdf'    
+           href='/Resume_ChenYinJu2024.pdf'    
            target="_blank"
            rel="noopener noreferrer">
            Resume,
