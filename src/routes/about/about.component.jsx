@@ -5,7 +5,7 @@ const About = () => {
     <div className="about-container">
       <div className="about-1">
         <div className='about-1-paragraph'>
-          <h1>Where the Story Begins</h1>
+          <h1>My Journey</h1>
           <h3>Motivation</h3>
           <p>On a typical day in 2021, I stumbled upon Inoue Tomohisa's book, which painted a stark future of the economy potentially collapsing by 2030. The growing influence of AI and technology highlighted my career vulnerabilities—my skills were becoming obsolete. This realization was daunting and enlightening, pushing me toward a field that promised resilience: coding. Despite my initial lack of enthusiasm for coding, each problem solved and bug fixed brought a profound sense of accomplishment, steering me toward a path as a full-stack developer.</p>
         </div>
