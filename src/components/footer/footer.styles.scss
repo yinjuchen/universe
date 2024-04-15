@@ -1,0 +1,36 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .font-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    margin: 0 12px;
+    color: #000;
+  }
+  footer {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer-container {
+    padding: 0;
+    margin: 10px;
+    .font-icon {
+      margin: 0;
+    }
+  }
+}

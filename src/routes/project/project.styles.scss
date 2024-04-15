@@ -1,0 +1,16 @@
+.projects {
+  padding: 10px;
+  margin: 10px;
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+      .project-detail-container {
+        margin: 10px;
+        padding: 10px 12px;
+      }
+    }
+}
+  
