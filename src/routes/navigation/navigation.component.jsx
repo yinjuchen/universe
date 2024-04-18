@@ -24,7 +24,7 @@ const Navigation = () => {
           Projects
         </Link>
         <a className="nav-link" 
-           href='/Resume_Chen YinJu 2020.pdf'    
+           href='/Resume_ChenYinJu2024.pdf'    
            target="_blank"
            rel="noopener noreferrer"
         >
