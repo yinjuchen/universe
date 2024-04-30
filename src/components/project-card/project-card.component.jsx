@@ -6,7 +6,7 @@ const ProjectCard = ({data}) => {
         <img src={data.imageUrl} alt={data.name}/>
       </a>
        <a href={data.projectLink} className='project-title-link' target='_blank' rel='noreferrer'>
-        <h2 className='project-name'>{data.name}</h2>
+        <h3 className='project-name'>{data.name}</h3>
       </a>
         <div className='project-link-container'>
         <a href={data.sourceLink} className='source-link' target='_blank' rel='noreferrer'>View Source</a>

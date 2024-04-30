@@ -1,8 +1,8 @@
 import './about.styles.scss'
 
-const About = () => {
+const About = ({id}) => {
   return (
-    <div className="about-container">
+    <div id={id} className="about-container">
       <div className="about-1">
         <div className='about-1-paragraph'>
           <h1>My Journey</h1>

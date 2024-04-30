@@ -1,6 +1,4 @@
-import { Fragment } from "react"
 import './skill.styles.scss'
-
 
 const Skill = () => {
   const skllsData = [

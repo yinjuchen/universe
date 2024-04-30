@@ -7,10 +7,14 @@
   width: 100%;
   margin: 0;
   box-sizing: border-box;
-  
+
   .logo {
     width: 40px;
     height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 23px 10px;
   }
 
   .nav-links-container {
@@ -18,25 +22,25 @@
     transition: height 0.3s;
     height: 0;
     overflow: hidden;
+
     .nav-link {
       &:hover {
         background-color: whitesmoke;
       }
-
     }
   }
 
+
   a {
     color: #000;
-    padding: 14px 16px;
+    padding: 30px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-
   }
 
   .icon {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 9px 10px;

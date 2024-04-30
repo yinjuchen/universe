@@ -27,8 +27,7 @@ const Home = () => {
         Discover More About My Journey <Link to='/about' className='about-link'><FontAwesomeIcon icon={faArrowRight}/></Link>
       </div>
     </div>
-   
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
