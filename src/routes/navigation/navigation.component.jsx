@@ -5,6 +5,7 @@ import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import Footer from "../../components/footer/footer.component"
+import Scroll from "../../components/scroll/scroll.component"
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -16,6 +17,7 @@ const Navigation = () => {
       <Link className='logo-container' to='/'>
         <Logo className="logo"/>
       </Link>
+      <Scroll>
       <div className={`nav-links-container ${isMenuOpen ? 'show': ''}`}>
         <Link className="nav-link" to='/about'>
           About
@@ -35,6 +37,7 @@ const Navigation = () => {
         </button>
       </div>
       <Outlet/>
+      </Scroll>
       <Footer/>
     </div>
   )

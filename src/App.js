@@ -5,7 +5,6 @@ import Home from './routes/home/home.component'
 import About from './routes/about/about.component';
 import Projects from './routes/project/project.component';
 
-
 const App = () => {
   return (
     <Routes>
