@@ -9,7 +9,7 @@ const About = ({id}) => {
           <h3>Motivation</h3>
           <p>On a typical day in 2021, I stumbled upon Inoue Tomohisa's book, which painted a stark future of the economy potentially collapsing by 2030. The growing influence of AI and technology highlighted my career vulnerabilities—my skills were becoming obsolete. This realization was daunting and enlightening, pushing me toward a field that promised resilience: coding. Despite my initial lack of enthusiasm for coding, each problem solved and bug fixed brought a profound sense of accomplishment, steering me toward a path as a full-stack developer.</p>
         </div>
-        <img className="about-1-image" src="https://i.ibb.co/LPCxcVr/motivation.webp" alt="images"/>
+        <img className="about-1-image" src="https://i.ibb.co/MgXxpHM/motivation1.png" alt="images"/>
       </div>
       <div className="about-2">
         <div className='about-2-paragraph'>
@@ -19,7 +19,7 @@ const About = ({id}) => {
 
      
         </div>
-        <img className="about-2-image" src="https://i.ibb.co/Q96jk0b/action.webp" alt="images"/>
+        <img className="about-2-image" src="https://i.ibb.co/yh5Z30F/motivation.png" alt="images"/>
       </div>
       <div className="about-3">
         <div className='about-3-paragraph'>
