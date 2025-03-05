@@ -26,13 +26,14 @@ const Navigation = () => {
         <Link className="nav-link" to='/projects'>
           Projects
         </Link>
+        {/*
         <a className="nav-link" 
            href='/Resume_ChenYinJu2024.pdf'    
            target="_blank"
            rel="noopener noreferrer"
         >
           Resume
-        </a> 
+        </a> */}
         <button className="icon" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} className="fa-vars"/>
         </button>

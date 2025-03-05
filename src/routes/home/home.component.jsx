@@ -14,12 +14,12 @@ const Home = () => {
       </p>
       <div className='links-container'>
         Dive into my <Link to="/projects" className='project-link'>Projects,</Link>
-        <a className="resume-link" 
+        {/* <a className="resume-link" 
            href='/Resume_ChenYinJu2025.pdf'    
            target="_blank"
            rel="noopener noreferrer">
            Resume,
-        </a> 
+        </a> */}
         or feel free to reach out at 
         <a className='contact-link' href="mailto:tiffanyc1213@gmail.com">tiffanyc1213@gmail.com</a>
       </div><br/>
