@@ -1,12 +1,13 @@
 .projects {
   padding: 10px;
   margin: 10px;
+  overflow-x: hidden;
 
   .project-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
+    
   
       .project-detail-container {
         margin: 10px;

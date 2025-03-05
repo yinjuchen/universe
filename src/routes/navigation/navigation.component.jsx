@@ -14,10 +14,11 @@ const Navigation = () => {
   }
   return( 
     <div className="navigation-container">
+  
       <Link className='logo-container' to='/'>
         <Logo className="logo"/>
       </Link>
-      <Scroll>
+  
       <div className={`nav-links-container ${isMenuOpen ? 'show': ''}`}>
         <Link className="nav-link" to='/about'>
           About
@@ -37,7 +38,6 @@ const Navigation = () => {
         </button>
       </div>
       <Outlet/>
-      </Scroll>
       <Footer/>
     </div>
   )
